@@ -26,7 +26,7 @@
 <meta name="twitter:image" content="images/facility.jpg">
 <meta name="twitter:url" content="https://www.limitlessfitness.com">
 <meta name="twitter:site" content="@LimitlessFit">
-<meta
+<meta name="twitter:creator" content="@LimitlessFit">
 
 
 <!-- Misc links -->
@@ -102,7 +102,12 @@
       </ul>
 <!-- add alt text where necessary -->
 <!-- add responsive images for resolution switching -->
-        src="images/classes.jpg"
+  <picture>
+      <source media="(min-width:320px)" srcset="images/classes-320w.jpg">
+      <source media="(min-width:768px)" srcset="images/classes-768w.jpg">
+      <source media="(min-width:1280px)" srcset="images/classes.jpg">
+      <img src="images/classes.jpg" alt="Limitless Fitness Classes">
+  </picture>    
 
     </section>
     <section>
@@ -114,7 +119,13 @@
       <a href="#">Book a Free Consultation today!</a>
 <!-- add alt text where necessary -->
 <!-- add responsive images for resolution switching -->
-        src="images/dumbells.jpg"
+ 
+  <picture>
+      <source media="(min-width:320px)" srcset="images/dumbells-320w.jpg">
+      <source media="(min-width:768px)" srcset="images/dumbells-768w.jpg">
+      <source media="(min-width:1280px)" srcset="images/dumbells.jpg">
+      <img src="images/dumbells.jpg" alt="Dumbells at Limitless Fitness">
+  </picture>
 
     </section>
     <section>
