@@ -26,7 +26,7 @@
 <meta name="twitter:image" content="images/facility.jpg">
 <meta name="twitter:url" content="https://www.limitlessfitness.com">
 <meta name="twitter:site" content="@LimitlessFit">
-<meta name="twitter:creator" content="@LimitlessFit">
+<meta
 
 
 <!-- Misc links -->
@@ -56,7 +56,13 @@
 <!-- add alt text where necessary -->
 <!-- add responsive images for resolution switching -->
     
-      src="images/facility.jpg"
+
+  <picture>
+    <source media="(min-width:320px)" srcset="images/facility-320w.jpg">
+    <source media="(min-width:768px)" srcset="images/facility-768w.jpg">
+    <source media="(min-width:1280px)" srcset="images/facility.jpg">
+    <img src="images/facility.jpg" alt="Limitless Fitness Facility">
+  </picture>
 
   </header>
   <nav>
